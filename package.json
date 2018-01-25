@@ -4,11 +4,14 @@
   "description": "todo app",
   "main": "index.html",
   "dependencies": {
-    "w3view": "^1.0.3"
+    "w3view": "^1.0.3",
+    "todomvc-app-css": "^1.0.0",
+    "todomvc-common": "^1.0.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node node_modules/w3view/builder/build.js html/components.html > js/components.js"
   },
   "repository": {
     "type": "git",
