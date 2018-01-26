@@ -115,8 +115,7 @@
 							return;
 						}
 						this.style.display = '';
-						this.ref.countWord.innerText = (data.active) % 10 === 1 &&
-							data.active !== 11 ?
+						this.ref.countWord.innerText = (data.active) === 1 ?
 								' item left' :  ' items left';
 						this.ref.count.innerText=data.active;
 						link.forEach(selectLink.bind(this));
@@ -148,7 +147,7 @@
 						appContext.addNewTodo(this.value);
 						this.value='';
 					};
-					
+
 					this.onSetData = function(input){
 						this.ref.main.setData(input);
 						this.ref.totals.setData(input.total);

@@ -1,2 +1,0 @@
-# todomvc
-todo app
