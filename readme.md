@@ -1,6 +1,6 @@
 # W3View • [TodoMVC](http://todomvc.com)
 
-> ## [W3View • The HTML was created for this](index.html)
+> ## [W3View • The HTML was created for this](https://github.com/vitalydmitriev1970/w3view-todomvc/raw/master/index.html)
 > - Extremely light and fast
 > - Simple and absolutely painless.
 > - Componentize your work in easiest way.
